@@ -1,0 +1,398 @@
+{
+  "mainStage": {
+    "acts": [
+      {
+        "name": "North of Paradise",
+        "when": "2024-07-05T18:20:00"
+      },
+      {
+        "name": "Three Mile Island",
+        "when": "2024-07-05T19:00:00"
+      },
+      {
+        "name": "The Primitives",
+        "when": "2024-07-05T19:45:00"
+      },
+      {
+        "name": "Richard Ashcroft",
+        "when": "2024-07-05T21:05:00"
+      },
+      {
+        "name": "Asian Fusion feat. SunitMusic, Raj Kaul, Saloni, Bollywood Belles, Icey Stanley, Ashok Ka Awaaz",
+        "when": "2024-07-06T12:20:00"
+      },
+      {
+        "name": "Project Overload",
+        "when": "2024-07-06T13:25:00"
+      },
+      {
+        "name": "Karma Cov",
+        "when": "2024-07-06T14:05:00"
+      },
+      {
+        "name": "Wes Nelson",
+        "when": "2024-07-06T14:40:00"
+      },
+      {
+        "name": "Lady Leshurr",
+        "when": "2024-07-06T15:30:00"
+      },
+      {
+        "name": "The Go! Team",
+        "when": "2024-07-06T16:25:00"
+      },
+      {
+        "name": "KAWALA",
+        "when": "2024-07-06T17:30:00"
+      },
+      {
+        "name": "PBN, Rishi Rich feat. Bobby Panesar and DJ Krish, and SunitMusic",
+        "when": "2024-07-06T18:25:00"
+      },
+      {
+        "name": "Sam Ryder",
+        "when": "2024-07-06T19:40:00"
+      },
+      {
+        "name": "Paloma Faith",
+        "when": "2024-07-06T21:10:00"
+      },
+      {
+        "name": "Loophole",
+        "when": "2024-07-07T12:20:00"
+      },
+      {
+        "name": "Diarmuid Gaffney",
+        "when": "2024-07-07T12:55:00"
+      },
+      {
+        "name": "Oh My God! It's The Church",
+        "when": "2024-07-07T13:40:00"
+      },
+      {
+        "name": "Rhoda Dakar",
+        "when": "2024-07-07T15:05:00"
+      },
+      {
+        "name": "The Brand New Heavies",
+        "when": "2024-07-07T16:25:00"
+      },
+      {
+        "name": "Beverley Knight",
+        "when": "2024-07-07T17:50:00"
+      }
+    ]
+  },
+  "theNextStage": {
+    "acts": [
+      {
+        "name": "DJ Sleepless with MC TNT",
+        "when": "2024-07-05T18:10:00"
+      },
+      {
+        "name": "Sonication with The Lecturah",
+        "when": "2024-07-05T18:40:00"
+      },
+      {
+        "name": "DJ SS with MC Bobby One",
+        "when": "2024-07-05T19:10:00"
+      },
+      {
+        "name": "Standard Procedure",
+        "when": "2024-07-05T19:50:00"
+      },
+      {
+        "name": "Georgie Riot with MC Toddlah",
+        "when": "2024-07-05T20:30:00"
+      },
+      {
+        "name": "Holy Goof",
+        "when": "2024-07-05T21:10:00"
+      },
+      {
+        "name": "Fridays",
+        "when": "2024-07-06T12:15:00"
+      },
+      {
+        "name": "Whizzy",
+        "when": "2024-07-06T12:55:00"
+      },
+      {
+        "name": "Ruder Than U",
+        "when": "2024-07-06T13:40:00"
+      },
+      {
+        "name": "Sisters In Dub",
+        "when": "2024-07-06T14:45:00"
+      },
+      {
+        "name": "Bobby Friction",
+        "when": "2024-07-06T15:45:00"
+      },
+      {
+        "name": "Mackabee Studio International",
+        "when": "2024-07-06T17:00:00"
+      },
+      {
+        "name": "Callan Moulton and FNJ with Grandmaster Ash",
+        "when": "2024-07-06T17:30:00"
+      },
+      {
+        "name": "DJ Beth",
+        "when": "2024-07-06T18:15:00"
+      },
+      {
+        "name": "Dawks & McNulty with Grandmaster Ash",
+        "when": "2024-07-06T19:00:00"
+      },
+      {
+        "name": "Rose Gray",
+        "when": "2024-07-06T19:45:00"
+      },
+      {
+        "name": "Tough Love",
+        "when": "2024-07-06T20:15:00"
+      },
+      {
+        "name": "Friend Within",
+        "when": "2024-07-06T21:15:00"
+      },
+      {
+        "name": "Sandra Godley OBE and the Gospel Collective",
+        "when": "2024-07-07T12:30:00"
+      },
+      {
+        "name": "Positive Choices",
+        "when": "2024-07-07T13:10:00"
+      },
+      {
+        "name": "Soundlab-Cov",
+        "when": "2024-07-07T13:55:00"
+      },
+      {
+        "name": "Coventry Music String Orchestra",
+        "when": "2024-07-07T14:30:00"
+      },
+      {
+        "name": "Luminae",
+        "when": "2024-07-07T14:55:00"
+      },
+      {
+        "name": "Zinx",
+        "when": "2024-07-07T15:30:00"
+      },
+      {
+        "name": "Fire in the Youth",
+        "when": "2024-07-07T16:00:00"
+      },
+      {
+        "name": "SK Schlomo: Beatbox Adventure",
+        "when": "2024-07-07T17:00:00"
+      }
+    ]
+  },
+  "serendipityStage": {
+    "acts": [
+      {
+        "name": "Opening Ceremony",
+        "when": "2024-07-05T18:00:00"
+      },
+      {
+        "name": "Local Showcase",
+        "when": "2024-07-05T19:00:00"
+      },
+      {
+        "name": "Indie Night",
+        "when": "2024-07-05T20:00:00"
+      },
+      {
+        "name": "Jazz Brunch",
+        "when": "2024-07-06T11:00:00"
+      },
+      {
+        "name": "Acoustic Afternoon",
+        "when": "2024-07-06T13:00:00"
+      },
+      {
+        "name": "Poetry Slam",
+        "when": "2024-07-06T15:00:00"
+      },
+      {
+        "name": "Comedy Hour",
+        "when": "2024-07-06T17:00:00"
+      },
+      {
+        "name": "Electronic Beats",
+        "when": "2024-07-06T19:00:00"
+      },
+      {
+        "name": "Sunday Chill",
+        "when": "2024-07-07T12:00:00"
+      },
+      {
+        "name": "World Music",
+        "when": "2024-07-07T14:00:00"
+      },
+      {
+        "name": "Finale Performance",
+        "when": "2024-07-07T16:00:00"
+      }
+    ]
+  },
+  "theCovStage": {
+    "acts": [
+      {
+        "name": "Cov Choir",
+        "when": "2024-07-05T18:30:00"
+      },
+      {
+        "name": "Local Legends",
+        "when": "2024-07-05T19:30:00"
+      },
+      {
+        "name": "Cov Bands",
+        "when": "2024-07-05T20:30:00"
+      },
+      {
+        "name": "Youth Showcase",
+        "when": "2024-07-06T12:00:00"
+      },
+      {
+        "name": "Rising Stars",
+        "when": "2024-07-06T13:30:00"
+      },
+      {
+        "name": "Cov Folk",
+        "when": "2024-07-06T15:00:00"
+      },
+      {
+        "name": "Open Mic",
+        "when": "2024-07-06T17:00:00"
+      },
+      {
+        "name": "Cov Rock",
+        "when": "2024-07-06T19:00:00"
+      },
+      {
+        "name": "Morning Medley",
+        "when": "2024-07-07T11:00:00"
+      },
+      {
+        "name": "Cov Hip Hop",
+        "when": "2024-07-07T13:00:00"
+      },
+      {
+        "name": "Afternoon Vibes",
+        "when": "2024-07-07T15:00:00"
+      },
+      {
+        "name": "Closing Jam",
+        "when": "2024-07-07T17:00:00"
+      }
+    ]
+  },
+  "covConneXKingstonStage": {
+    "acts": [
+      {
+        "name": "Kingston Kickoff",
+        "when": "2024-07-05T18:00:00"
+      },
+      {
+        "name": "Reggae Rising",
+        "when": "2024-07-05T19:00:00"
+      },
+      {
+        "name": "Dub Daze",
+        "when": "2024-07-05T20:00:00"
+      },
+      {
+        "name": "Ska Saturday",
+        "when": "2024-07-06T12:00:00"
+      },
+      {
+        "name": "Dancehall Delight",
+        "when": "2024-07-06T14:00:00"
+      },
+      {
+        "name": "Reggae Legends",
+        "when": "2024-07-06T16:00:00"
+      },
+      {
+        "name": "Kingston Vibes",
+        "when": "2024-07-06T18:00:00"
+      },
+      {
+        "name": "Sunday Ska",
+        "when": "2024-07-07T12:00:00"
+      },
+      {
+        "name": "Reggae Roots",
+        "when": "2024-07-07T14:00:00"
+      },
+      {
+        "name": "Kingston Finale",
+        "when": "2024-07-07T16:00:00"
+      }
+    ]
+  },
+  "theResonateStage": {
+    "acts": [
+      {
+        "name": "Morning Meditation",
+        "when": "2024-07-05T10:00:00"
+      },
+      {
+        "name": "Acoustic Resonance",
+        "when": "2024-07-05T12:00:00"
+      },
+      {
+        "name": "Local Talent",
+        "when": "2024-07-05T14:00:00"
+      },
+      {
+        "name": "Sunset Sessions",
+        "when": "2024-07-05T18:00:00"
+      },
+      {
+        "name": "Electro Night",
+        "when": "2024-07-05T20:00:00"
+      },
+      {
+        "name": "Yoga Beats",
+        "when": "2024-07-06T09:00:00"
+      },
+      {
+        "name": "Chill Vibes",
+        "when": "2024-07-06T11:00:00"
+      },
+      {
+        "name": "Live Podcast",
+        "when": "2024-07-06T13:00:00"
+      },
+      {
+        "name": "Dance Party",
+        "when": "2024-07-06T16:00:00"
+      },
+      {
+        "name": "Acoustic Night",
+        "when": "2024-07-06T19:00:00"
+      },
+      {
+        "name": "Morning Flow",
+        "when": "2024-07-07T10:00:00"
+      },
+      {
+        "name": "Folk Tunes",
+        "when": "2024-07-07T12:00:00"
+      },
+      {
+        "name": "Indie Hour",
+        "when": "2024-07-07T14:00:00"
+      },
+      {
+        "name": "Closing Ceremony",
+        "when": "2024-07-07T17:00:00"
+      }
+    ]
+  }
+}

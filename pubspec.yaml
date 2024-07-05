@@ -1,0 +1,29 @@
+name: godiva_festival_2024
+description: "Show the line up for Godiva Festival 2024."
+publish_to: "none" # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.5.0-180.3.beta <4.0.0"
+
+dependencies:
+  backstreets_widgets: ^0.13.0
+  cupertino_icons: ^1.0.8
+  flutter:
+    sdk: flutter
+  intl: ^0.19.0
+  json_annotation: ^4.9.0
+  recase: ^4.1.0
+
+dev_dependencies:
+  build_runner: ^2.4.11
+  flutter_lints: ^4.0.0
+  flutter_test:
+    sdk: flutter
+  json_serializable: ^6.8.0
+
+flutter:
+  uses-material-design: true
+  assets:
+  - assets/acts.json
