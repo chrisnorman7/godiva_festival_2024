@@ -2,6 +2,7 @@ import 'package:backstreets_widgets/screens.dart';
 import 'package:flutter/material.dart';
 
 import '../json/festival_act.dart';
+import '../json/festival_stage.dart';
 import '../widgets/acts_list_view.dart';
 
 /// Show the loaded [acts].
@@ -26,11 +27,9 @@ class ActsScreenState extends State<ActsScreen> {
   @override
   Widget build(final BuildContext context) {
     final now = DateTime.now();
-    final oldActsIterable = widget.acts.where(
+    final oldActs = widget.acts.where(
       (final act) => act.when.isBefore(now),
     );
-    final oldActs =
-        oldActsIterable.isEmpty ? <FestivalAct>[] : oldActsIterable.toList();
     final refreshButton = IconButton(
       onPressed: () => setState(() {}),
       icon: const Icon(
@@ -42,16 +41,21 @@ class ActsScreenState extends State<ActsScreen> {
       tabs: [
         TabbedScaffoldTab(
           actions: [refreshButton],
-          title: 'Already Happened',
-          icon: const Icon(
-            Icons.mic_outlined,
-          ),
-          builder: (final context) => ActsListView(acts: oldActs),
+          title: 'On now',
+          icon: const Icon(Icons.mic_outlined),
+          builder: (final context) {
+            final acts = <FestivalStage, FestivalAct>{};
+            for (final act in oldActs.toList().reversed) {
+              acts.putIfAbsent(
+                act.stage,
+                () => act,
+              );
+            }
+            return ActsListView(acts: acts.values.toList());
+          },
         ),
         TabbedScaffoldTab(
-          actions: [
-            refreshButton,
-          ],
+          actions: [refreshButton],
           title: 'Coming up',
           icon: const Icon(Icons.alarm_outlined),
           builder: (final context) {
@@ -60,6 +64,14 @@ class ActsScreenState extends State<ActsScreen> {
             );
             return ActsListView(acts: acts.toList());
           },
+        ),
+        TabbedScaffoldTab(
+          actions: [refreshButton],
+          title: 'Already happened',
+          icon: const Icon(Icons.history_outlined),
+          builder: (final context) => ActsListView(
+            acts: oldActs.isEmpty ? <FestivalAct>[] : oldActs.toList(),
+          ),
         ),
         TabbedScaffoldTab(
           title: 'All',
