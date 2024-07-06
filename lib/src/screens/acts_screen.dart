@@ -46,6 +46,9 @@ class ActsScreenState extends State<ActsScreen> {
           builder: (final context) {
             final acts = <FestivalStage, FestivalAct>{};
             for (final act in oldActs.toList().reversed) {
+              if (act.when.day != now.day) {
+                continue;
+              }
               acts.putIfAbsent(
                 act.stage,
                 () => act,

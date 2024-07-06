@@ -26,6 +26,9 @@ class ActsBuilder extends StatelessWidget {
         if (acts == null || acts.isEmpty) {
           return const LoadingScreen();
         }
+        acts.sort(
+          (final a, final b) => a.when.compareTo(b.when),
+        );
         return ActsScreen(acts: acts);
       },
       loading: LoadingScreen.new,
